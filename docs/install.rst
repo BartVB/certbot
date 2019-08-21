@@ -200,7 +200,7 @@ Operating System Packages
 
 **Debian**
 
-If you run Debian Stretch or Debian Sid, you can install certbot packages.
+If you run Debian Stretch or newer, you can install certbot packages.
 
 .. code-block:: shell
 
@@ -209,14 +209,6 @@ If you run Debian Stretch or Debian Sid, you can install certbot packages.
 
 If you don't want to use the Apache plugin, you can omit the
 ``python-certbot-apache`` package. Or you can install ``python-certbot-nginx`` instead.
-
-Packages exist for Debian Jessie via backports. First you'll have to follow the
-instructions at http://backports.debian.org/Instructions/ to enable the Jessie backports
-repo, if you have not already done so. Then run:
-
-.. code-block:: shell
-
-   sudo apt-get install certbot python-certbot-apache -t jessie-backports
 
 **Ubuntu**
 
